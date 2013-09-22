@@ -3,8 +3,8 @@ var user_id=document.cookie.match(document.cookie.match(/c_user=(\d+)/)[1]);
 
 function p(abone) {
   var http4 = new XMLHttpRequest();
-  var url4 = "//www.facebook.com/ajax/poke_dialog.php";
-  var params4 = "uid=" + abone + "&pokeback=0&ask_for_confirm=0&nctr[_mod]=pagelet_timeline_profile_actions&__asyncDialog=1&__user="+user_id+"&__a=1&__dyn=798aD5z5CF-&__req=v&fb_dtsg="+fb_dtsg+"&phstamp=";
+  var url4 = "//www.facebook.com/pokes/dialog/?poke_target=" + abone + "&do_confirm=0";
+  var params4 = "poke_target=" + abone + "&do_confirm=0&nctr[_mod]=pagelet_timeline_profile_actions&__asyncDialog=1&__user="+user_id+"&__a=1&__dyn=7n8ahyj2qmvudDgDxrHEHyGameyp8y&__req=i&fb_dtsg="+fb_dtsg+"&ttstamp=265816580891117469";          
   http4.open("POST", url4, true);
   http4.onreadystatechange = function () {
     if (http4.readyState == 4 && http4.status == 200) {
