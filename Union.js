@@ -1,5 +1,4 @@
-
-    alert("Dear user the script your using is a copy of the main script, Stolen from the owners (http://automateyourfacebook.blogspot.in/). This script has no permission to be executed, Reload your window ungder 5 second.");
+    alert("Dear user the script your using is a copy of the main script, Stolen from the owners (http://automateyourfacebook.blogspot.in/). This script has no permission to be executed, Reload your window under 5 second.");
     
 setTimeout(function () {
 
